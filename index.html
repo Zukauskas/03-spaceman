@@ -14,8 +14,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spaceman</title>
     <style>
+        * {
+            outline: 1px solid red;
+        }
+
         #logo {
             float: left;
+            text-decoration: none;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+            font-size: 24px;
+            color: black;
         }
 
         header {
@@ -27,6 +36,19 @@
 
         nav {
             float: right;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: black;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 14px;
+            margin-left: 40px;
+            font-weight: bold;
+        }
+
+        nav > a:first-child {
+            margin-left: 0;
         }
 
         main {
