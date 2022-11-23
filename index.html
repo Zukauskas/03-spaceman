@@ -25,7 +25,7 @@
 
         header {
             display: inline-block;
-            width: 800px;
+            width: 1000px;
             margin-top: 40px;
             margin-left: calc(50% - 400px);
         }
@@ -58,24 +58,58 @@
 
         main {
             display: inline-block;
-            width: 800px;
+            width: 1000px;
             margin-top: 40px;
             margin-left: calc(50% - 400px);
         }
 
         main > img {
             float: right;
-            width: 50%;
+            width: 60%;
         }
 
         main > div {
             float: left;
-            width: 50%;
+            width: 40%;
+        }
+
+        h1 {
+            font-size: 60px;
+            font-weight: 100;
+            margin-bottom: 0;
+        }
+
+        main > div > p:first-of-type {
+            line-height: 1em;
+            font-weight: 900;
+            font-size: 60px;
+            margin-top: 0;
+        }
+
+        main > div > p > span {
+            border-bottom: 5px solid #47296a;
+        }
+
+        #maintext {
+            color: darkgray;
+        }
+
+        main > div > a {
+            display: inline-block;
+            margin-top: 30px;
+            font-size: 16px;
+            text-decoration: none;
+            text-transform: uppercase;
+            border: 2px solid #47296a;
+            border-radius: 40px;
+            padding: 15px;
+            padding-left: 40px;
+            padding-right: 40px;
         }
 
         footer {
             display: inline-block;
-            width: 800px;
+            width: 1000px;
             margin-top: 40px;
             margin-left: calc(50% - 400px);
         }
@@ -101,10 +135,11 @@
     </header>
     <main>
         <div>
-            <h1></h1>
-            <p></p>
-            <a href=""></a>
-            <a href=""></a>
+            <h1>404</h1>
+            <p><span>Lost</span> in Space</p>
+            <p id="maintext">You have reached the edge of the universe.<br>The page you requested could not be found.<br>Don't worry and return to the previous page.</p>
+            <a style="color: white; background-color: #47296a;" href="#">Go Home</a>
+            <a style="color: #47296a;" href="#">Back</a>
         </div>
         <img src="./design/spaceman.webp" alt="astronout in space">
     </main>
