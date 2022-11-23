@@ -16,6 +16,11 @@
     <style>
         #logo {
             float: left;
+            text-decoration: none;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+            font-size: 24px;
+            color: black;
         }
 
         header {
@@ -27,6 +32,28 @@
 
         nav {
             float: right;
+            margin-top: 5px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: rgb(94, 94, 94);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 14px;
+            margin-left: 20px;
+            font-weight: bold;
+            padding: 5px 10px;
+            border: 1px solid transparent;
+            border-radius: 10px;
+            transition: all 0.5s;
+        }
+
+        nav > a:first-child {
+            margin-left: 0;
+        }
+
+        nav > a:hover {
+            border-color: rgb(94, 94, 94);
         }
 
         main {
