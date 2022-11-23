@@ -14,10 +14,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spaceman</title>
     <style>
-        * {
-            outline: 1px solid red;
-        }
-
         #logo {
             float: left;
             text-decoration: none;
@@ -36,19 +32,28 @@
 
         nav {
             float: right;
+            margin-top: 5px;
         }
 
         nav > a {
             text-decoration: none;
-            color: black;
+            color: rgb(94, 94, 94);
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-size: 14px;
-            margin-left: 40px;
+            margin-left: 20px;
             font-weight: bold;
+            padding: 5px 10px;
+            border: 1px solid transparent;
+            border-radius: 10px;
+            transition: all 0.5s;
         }
 
         nav > a:first-child {
             margin-left: 0;
+        }
+
+        nav > a:hover {
+            border-color: rgb(94, 94, 94);
         }
 
         main {
