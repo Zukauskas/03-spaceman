@@ -12,145 +12,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://use.fontawesome.com/4dc086f8a8.js"></script>
+    <link rel="stylesheet" href="./css/main.css">
     <title>Spaceman</title>
-    <style>
-        #logo {
-            float: left;
-            text-decoration: none;
-            font-family:Verdana, Geneva, Tahoma, sans-serif;
-            font-weight: bold;
-            font-size: 24px;
-            color: black;
-        }
-
-        header {
-            display: inline-block;
-            width: 1000px;
-            margin-top: 40px;
-            margin-left: calc(50% - 400px);
-        }
-
-        nav {
-            float: right;
-            margin-top: 5px;
-        }
-
-        nav > a {
-            text-decoration: none;
-            color: rgb(94, 94, 94);
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-size: 14px;
-            margin-left: 20px;
-            font-weight: bold;
-            padding: 5px 10px;
-            border: 1px solid transparent;
-            border-radius: 10px;
-            transition: all 0.5s;
-        }
-
-        nav > a:first-child {
-            margin-left: 0;
-        }
-
-        nav > a:hover {
-            border-color: rgb(94, 94, 94);
-        }
-
-        main {
-            display: inline-block;
-            width: 1000px;
-            margin-top: 40px;
-            margin-left: calc(50% - 400px);
-        }
-
-        main > img {
-            float: right;
-            width: 60%;
-        }
-
-        main > div {
-            float: left;
-            width: 40%;
-        }
-
-        h1 {
-            font-size: 60px;
-            font-weight: 100;
-            margin-bottom: 0;
-        }
-
-        main > div > p:first-of-type {
-            line-height: 1em;
-            font-weight: 900;
-            font-size: 60px;
-            margin-top: 0;
-        }
-
-        main > div > p > span {
-            border-bottom: 5px solid #47296a;
-        }
-
-        #maintext {
-            color: darkgray;
-        }
-
-        main > div > a {
-            display: inline-block;
-            margin-top: 30px;
-            font-size: 16px;
-            text-decoration: none;
-            text-transform: uppercase;
-            border: 2px solid #47296a;
-            border-radius: 40px;
-            padding: 15px;
-            padding-left: 40px;
-            padding-right: 40px;
-        }
-
-        footer {
-            display: inline-block;
-            width: 1000px;
-            margin-top: 40px;
-            margin-left: calc(50% - 400px);
-        }
-
-        footer > div {
-            float: left;
-        }
-
-        footer > p {
-            float: right;
-        }
-    </style>
 </head>
 <body>
-    <header>
-        <a href="#" id="logo">Clay</a>
-        <nav>
-            <a href="#">About</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Job</a>
-            <a href="#">Contact</a>
+    <header class="main-header">
+        <a href="#" class="logo">Clay</a>
+        <nav class="main-nav">
+            <a class="links" href="#">About</a>
+            <a class="links" href="#">Portfolio</a>
+            <a class="links" href="#">Job</a>
+            <a class="links" href="#">Contact</a>
         </nav>
     </header>
-    <main>
-        <div>
-            <h1>404</h1>
+    <main class="main-content">
+        <div class="left-content">
+            <h1 class="main-title">404</h1>
             <p><span>Lost</span> in Space</p>
-            <p id="maintext">You have reached the edge of the universe.<br>The page you requested could not be found.<br>Don't worry and return to the previous page.</p>
-            <a style="color: white; background-color: #47296a;" href="#">Go Home</a>
-            <a style="color: #47296a;" href="#">Back</a>
+            <p class="description">You have reached the edge of the universe.<br>The page you requested could not be found.<br>Don't worry and return to the previous page.</p>
+            <a class="button" style="color: white; background-color: #47296a;" href="#">Go Home</a>
+            <a class="button" style="color: #47296a;" href="#">Back</a>
         </div>
-        <img src="./design/spaceman.webp" alt="astronout in space">
+        <img class="right-content" src="./design/spaceman.webp" alt="astronaut in space">
     </main>
     <footer>
-        <div>
-            <a href="#"><img src="#" alt="social link"></a>
-            <a href="#"><img src="#" alt="social link"></a>
-            <a href="#"><img src="#" alt="social link"></a>
-            <a href="#"><img src="#" alt="social link"></a>
+        <div class="socials" >
+            <a class="icon fa fa-facebook-square" href="#"></a>
+            <a class="icon fa fa-twitter" href="#"></a>
+            <a class="icon fa fa-google-plus" href="#"></a>
+            <a class="icon fa fa-linkedin-square" href="#"></a>
         </div>
-        <p>COPYRIGHT</p>
+        <p class="copyright fa fa-copyright"> 2022 - All rights reserved</p>
     </footer>
 </body>
 </html>

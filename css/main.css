@@ -1,0 +1,127 @@
+:root {
+    --main-color: #47296a;
+}
+
+
+.logo {
+    float: left;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+}
+
+.main-header {
+    display: inline-block;
+    width: 1000px;
+    margin-top: 40px;
+    margin-left: calc(50% - 500px);
+}
+
+.main-nav {
+    float: right;
+    margin-top: 5px;
+}
+
+.main-nav > .links {
+    text-decoration: none;
+    color: rgb(94, 94, 94);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    margin-left: 20px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.main-nav > .links:first-child {
+    margin-left: 0;
+}
+
+.main-nav > .links:hover {
+    border-color: rgb(94, 94, 94);
+}
+
+.main-content {
+    display: inline-block;
+    width: 1000px;
+    margin-top: 40px;
+    margin-left: calc(50% - 500px);
+}
+
+.right-content {
+    float: right;
+    width: 60%;
+}
+
+.left-content {
+    float: left;
+    width: 40%;
+    margin-top: 30px;
+}
+
+.main-title {
+    font-size: 60px;
+    font-weight: 100;
+    margin-bottom: 0;
+}
+
+.left-content > p:first-of-type {
+    line-height: 1em;
+    font-weight: 900;
+    font-size: 60px;
+    margin-top: 0;
+}
+
+.left-content > p > span {
+    border-bottom: 5px solid var(--main-color);
+}
+
+.description {
+    color: darkgray;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 2em;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid var(--main-color);
+    border-radius: 3em;
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+footer {
+    display: inline-block;
+    width: 1000px;
+    margin-top: 20px;
+    margin-left: calc(50% - 500px);
+}
+
+.socials {
+    float: left;
+    margin-top: 0.75em;
+}
+
+.icon {
+    display: inline-block;
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+    margin-right: 0.25em;
+}
+
+.icon:hover {
+    color:var(--main-color);
+}
+
+.copyright {
+    float: right;
+    font-size: 16px;
+}
