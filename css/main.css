@@ -1,4 +1,4 @@
-#logo {
+.logo {
     float: left;
     text-decoration: none;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -7,19 +7,19 @@
     color: black;
 }
 
-header {
+.main-header {
     display: inline-block;
     width: 1000px;
     margin-top: 40px;
     margin-left: calc(50% - 400px);
 }
 
-nav {
+.main-nav {
     float: right;
     margin-top: 5px;
 }
 
-nav > a {
+.main-nav > .links {
     text-decoration: none;
     color: rgb(94, 94, 94);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -32,53 +32,53 @@ nav > a {
     transition: all 0.5s;
 }
 
-nav > a:first-child {
+.main-nav > .links:first-child {
     margin-left: 0;
 }
 
-nav > a:hover {
+.main-nav > .links:hover {
     border-color: rgb(94, 94, 94);
 }
 
-main {
+.main-content {
     display: inline-block;
     width: 1000px;
     margin-top: 40px;
     margin-left: calc(50% - 400px);
 }
 
-main > img {
+.right-content {
     float: right;
     width: 60%;
 }
 
-main > div {
+.left-content {
     float: left;
     width: 40%;
 }
 
-h1 {
+.main-title {
     font-size: 60px;
     font-weight: 100;
     margin-bottom: 0;
 }
 
-main > div > p:first-of-type {
+.left-content > p:first-of-type {
     line-height: 1em;
     font-weight: 900;
     font-size: 60px;
     margin-top: 0;
 }
 
-main > div > p > span {
+.left-content > p > span {
     border-bottom: 5px solid #47296a;
 }
 
-#maintext {
+.description {
     color: darkgray;
 }
 
-main > div > a {
+.button {
     display: inline-block;
     margin-top: 30px;
     font-size: 16px;
@@ -98,10 +98,10 @@ footer {
     margin-left: calc(50% - 400px);
 }
 
-footer > div {
+.socials {
     float: left;
 }
 
-footer > p {
+.copyright {
     float: right;
 }
