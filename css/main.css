@@ -102,19 +102,15 @@ body * {
 }
 
 footer {
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 1000px;
     margin-top: 20px;
     margin-left: calc(50% - 500px);
 }
 
-.socials {
-    float: left;
-    margin-top: 0.75em;
-}
-
 .icon {
-    display: inline-block;
     text-decoration: none;
     color: grey;
     font-size: 20px;
@@ -126,6 +122,5 @@ footer {
 }
 
 .copyright {
-    float: right;
     font-size: 16px;
 }
