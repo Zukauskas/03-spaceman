@@ -101,6 +101,25 @@ body * {
     padding-right: 2em;
 }
 
+.home-btn {
+    color: white;
+    background-color: var(--main-color);
+}
+
+.home-btn:hover{
+    background-color: white;
+    color: var(--main-color)
+}
+
+.back-btn {
+    color: var(--main-color);
+}
+
+.back-btn:hover {
+    background-color: var(--main-color);
+    color: white;
+}
+
 footer {
     display: flex;
     justify-content: space-between;
