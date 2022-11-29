@@ -2,36 +2,39 @@
     --main-color: #47296a;
 }
 
-
-.logo {
-    float: left;
-    text-decoration: none;
+body,
+body * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    font-size: 24px;
-    color: black;
 }
 
 .main-header {
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 1000px;
     margin-top: 40px;
     margin-left: calc(50% - 500px);
 }
 
+.logo {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+}
+
 .main-nav {
-    float: right;
-    margin-top: 5px;
 }
 
 .main-nav > .links {
     text-decoration: none;
     color: rgb(94, 94, 94);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
     margin-left: 20px;
     font-weight: bold;
-    padding: 5px 10px;
     border: 1px solid transparent;
     border-radius: 10px;
     transition: all 0.5s;
